@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Special+Elite');
 body{
 	font-family: 'Special Elite', cursive;
-	font-size: 40px;
+	font-size: 35px;  
+
 }
 
 .jumbotro{
@@ -13,13 +14,40 @@ body{
 }
 
 .fundo--cor{
-	background-color: green; 
+	background-color: #00bf8f; 
 }
 
 .gradiente{
 background-color: #08AEEA;
-background-image: linear-gradient( #00bf8f, #001510);
+background-image: linear-gradient( #00bf8f, #00bf8f);
 
 }
+
+.rodape{
+	background-image: url(../@.jpg);
+	background-color: white; 
+	background-size: cover;
+	background-position: center;
+	background-repeat: repeat;
+	position: relative;
+
+}
+
+.contato{
+	text-align: center;
+	position: relative;
+	color: white;
+	font-size: 22px;
+	top: 50%;
+	left:
+	transform: translateY(-50) transform: translateX(-50);
+
+}
+ .fundo--dosite{
+ 	background-repeat: repeat;
+ 	background-image: url(../@.jpg)
+ 	
+
+ }
 
 
